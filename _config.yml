@@ -1,0 +1,52 @@
+title: Method Matters Blog
+description: > # this means to ignore newlines until "baseurl:"
+  A blog about data science, statistics, and data analysis with
+  open-source software. 
+permalink: ':title/'
+baseurl: # "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "https://methodmatters.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Method Matters Blog # add your name
+author-img: Anscombe_80s_square_font.png # add your photo
+about-author: Welcome to my blog! This is a space where I write about data science, statistics, and data analysis. # add description
+# social-twitter: # add your Twitter handle
+# social-facebook: # add your Facebook handle
+social-github: methodmatters # add your Github handle
+social-linkedin: mike-friedman # add your Linkedin handle
+social-email: methodmattersblog@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: methodmatters # mr-brown # add your discus identifier
+
+# Tracker
+analytics: UA-147974154-1 # Google Analytics
+
+# Build Settings
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+# highlighter: none
+
+# Markdown Processors
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# kramdown:
+#  input: GFM
+#  syntax_highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-feed
+  - jekyll-gist
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
