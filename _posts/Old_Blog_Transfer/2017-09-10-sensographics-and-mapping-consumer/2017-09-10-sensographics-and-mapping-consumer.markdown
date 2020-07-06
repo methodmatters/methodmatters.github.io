@@ -26,6 +26,8 @@ In order to accomplish this goal, we will use PCA (principal components analysis
 For an excellent introduction to PCA, I highly recommend these [wonderfully clear](https://www.youtube.com/watch?v=ipyxSYXgzjQ){:target="_blank"} [videos](https://www.youtube.com/watch?v=dbuSGWCgdzw){:target="_blank"} from the Hastie and Tibshirani "Introduction to Statistical Learning" online course. François Husson, a developer of the R package we'll use to do the PCA, has a great [open course about sensographics](https://www.youtube.com/playlist?list=PLnZgp6epRBbQiG5UBFU2eflRKFX8hszRf){:target="_blank"} on YouTube (in French only), and some [interesting](https://www.youtube.com/watch?v=tmApJUWWnyI){:target="_blank"} [tutorials](https://www.youtube.com/watch?v=CTSbxU6KLbM){:target="_blank"} about PCA in English.[^1]  
   
 ## The Data
+
+*[Edit: the data and code used in this blog post are now available on [Github](https://github.com/methodmatters/PCA_sensographics){:target="_blank"}.]*
   
 For a detailed description of the creation of this dataset, please see the [previous post]{{ site.baseurl }}({% link _posts/Old_Blog_Transfer/2017-08-01-showing-some-respect-for-data-munging/2017-08-01-showing-some-respect-for-data-munging.markdown %} ){:target="_blank"} which describes the process in detail. In sum, we have a dataset with 1 row per beverage. For each beverage, we have information on the following consumer perceptions: Creative, Energetic, Joyous, Focused, Happy, Relaxed, Tired and Excited. We also have columns representing the category that each beverage falls into (there are 3 categories of beverages in these data), the drink name, the overall rating score, and the number of consumers who rated each beverage.   
   
