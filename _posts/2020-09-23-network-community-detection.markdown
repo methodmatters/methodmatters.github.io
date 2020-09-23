@@ -556,7 +556,7 @@ It's really interesting to see how the algorithm divides the network graph into 
 
 The more striking divisions are those separating the large center cluster into smaller communities of linked albums. Let's quickly examine a single example. (Note: I have manually added the artist and album release year to the pictures below. This information is shown on the interactive graph when you hover over the nodes. Also, the graph is initialized randomly each time it loads. The layout of the nodes below might not match exactly with the layout you see, though the links will be the same.) 
 
-![Brother Ali Communities]({{site.baseurl}}/assets/img/2020-09-23-network-community-detection/blue_in_green_clean_annotated.PNG) 
+![Brother Ali Communities]({{site.baseurl}}/assets/img/2020-09-23-network-community-detection/blue_in_green_clean_annotated.png) 
 
 The above image shows a number of albums from [Brother Ali](https://en.wikipedia.org/wiki/Brother_Ali){:target="_blank"}. Interestingly, these albums fall into two different communities. On the left-hand side in blue, we see [Shadows on the Sun](https://en.wikipedia.org/wiki/Shadows_on_the_Sun){:target="_blank"}, [Us](https://en.wikipedia.org/wiki/Us_(Brother_Ali_album)){:target="_blank"}, and [The Undisputed Truth](https://en.wikipedia.org/wiki/The_Undisputed_Truth_(Brother_Ali_album)){:target="_blank"}. On the right side, in green, we see Brother Ali's [Mourning in America and Dreaming in Color](https://en.wikipedia.org/wiki/Mourning_in_America_and_Dreaming_in_Color){:target="_blank"}. The Brother Ali albums are all related linguistically, but the inferred communities differ. It's hard to say exactly why, but as others have written, *Mourning in America* is an overtly political album in many respects, much more so than the other Brother Ali albums in the picture. It is perhaps this stylistic shift that leads it to be connected to different albums, and therefore placed in a separate community.
 
@@ -568,7 +568,7 @@ This analysis is similar to the one described in the [previous post]{{ site.base
 
 2. Community detection can be useful for **identifying rap sub-genres**. For example, the image below shows a community of albums colored in light purple. Among the artists, we see names such as [The Streets](https://en.wikipedia.org/wiki/The_Streets){:target="_blank"}, [El-P](https://en.wikipedia.org/wiki/El-P){:target="_blank"}, [Mr. Lif](https://en.wikipedia.org/wiki/Mr._Lif){:target="_blank"}, [Sage Francis](https://en.wikipedia.org/wiki/Sage_Francis){:target="_blank"}, [Doomtree](https://en.wikipedia.org/wiki/Doomtree){:target="_blank"}, [P.O.S.](https://en.wikipedia.org/wiki/P.O.S_(rapper)){:target="_blank"}, and [Themselves](https://en.wikipedia.org/wiki/Themselves){:target="_blank"}. If I had to give this community a sub-genre name, I might call it "socially conscious independent rap" (mostly from the 2000's).
 
-![Independent 2000's community]({{site.baseurl}}/assets/img/2020-09-23-network-community-detection/purple_independent_rap_community_clean.PNG) 
+![Independent 2000's community]({{site.baseurl}}/assets/img/2020-09-23-network-community-detection/purple_independent_rap_community_clean.png) 
 
 {:start="3"}
 3. Finally, the communities can provide a basis for **making music recommendations**. Personally, I like The Streets, El-P, Doomtree, and P.O.S. Based on the independent rap community displayed above, I should probably check out Mr. Lif, Sage Francis, and Themselves, as these artists' albums are in the same community as artists whose work I appreciate.
