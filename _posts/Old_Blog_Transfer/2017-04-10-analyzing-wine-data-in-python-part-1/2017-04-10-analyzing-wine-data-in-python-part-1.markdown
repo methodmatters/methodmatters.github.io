@@ -113,7 +113,7 @@ predictors = pd.concat([wine_data.year,
   
 The head of the predictor matrix looks like this:  
   
-![predictors for price model]({{site.baseurl}}/assets/img/old_blog_transfer/2017-04-10-analyzing-wine-data-in-python-part-1/predictors_price_model.png) 
+![predictors for price model]({{site.baseurl}}/assets/img/old_blog_transfer/2017-04-10-analyzing-wine-data-in-python-part-1/predictors_price_model.PNG) 
   
 Before beginning the modeling, let's check for missing values in the predictors. Sklearn will not run a model if any of the the predictors have missing variables.  
 
