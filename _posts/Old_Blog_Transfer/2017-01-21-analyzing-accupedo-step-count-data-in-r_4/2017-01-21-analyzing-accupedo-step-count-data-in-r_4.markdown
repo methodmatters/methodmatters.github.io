@@ -39,7 +39,7 @@ raw_data = dbGetQuery(con,'select * from diaries' )
   
 The raw data look like this:  
 
-![raw data snapshot]({{site.baseurl}}/assets/img/old_blog_transfer/2017-01-21-analyzing-accupedo-step-count-data-in-r_4/raw_data_snapshot.png) 
+![raw data snapshot]({{site.baseurl}}/assets/img/old_blog_transfer/2017-01-21-analyzing-accupedo-step-count-data-in-r_4/raw_data_snapshot.PNG) 
   
   
 For the sake of this exercise, I’ll be focusing on the “steps” variable, e.g. the step count recorded at a given moment in time. Note that the step counts are cumulative. For example, if by 11 AM I had walked 3,000 steps, the recorded value for 11 AM would be (of course) 3,000. Then, if I walked an additional 500 steps in the following half-hour, the recorded value at 11:30 AM would be 3,500, which includes the previously recorded total, plus the additional steps added within the given time frame.  

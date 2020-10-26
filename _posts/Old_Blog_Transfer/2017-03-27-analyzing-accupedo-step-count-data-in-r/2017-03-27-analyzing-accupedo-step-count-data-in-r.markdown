@@ -46,7 +46,7 @@ As before, when aggregating I kept the maximum step count per day (as these coun
   
 The resulting dataset looks like this:  
   
-![day level data]({{site.baseurl}}/assets/img/old_blog_transfer/2017-03-27-analyzing-accupedo-step-count-data-in-r/Day_level_data.png) 
+![day level data]({{site.baseurl}}/assets/img/old_blog_transfer/2017-03-27-analyzing-accupedo-step-count-data-in-r/Day_level_data.PNG) 
 
 
 ## Data Visualization and Analysis
