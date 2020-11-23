@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Method Matters Blog # add your name
 author-img: Anscombe_80s_square_font.png # add your photo
 about-author: Welcome to my blog! This is a space where I write about data science, statistics, and data analysis. # add description
-# social-twitter: # add your Twitter handle
+social-twitter: uselesspvalues # add your Twitter handle
 # social-facebook: # add your Facebook handle
 social-github: methodmatters # add your Github handle
 social-linkedin: mike-friedman # add your Linkedin handle
