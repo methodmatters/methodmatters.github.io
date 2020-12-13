@@ -18,6 +18,8 @@ blogger_orig_url: https://methodmatters.blogspot.com/2018/02/editing-id3-tags-mp
    
   
 In this post, I'd like to do something a little bit different. Typically, on this blog I write about data analysis. In this post, we'll still be dealing with data, but less on the analysis side and more on the management side. Specifically, I'll be using Python to edit the meta-data (e.g., the [ID3 tags](https://en.wikipedia.org/wiki/ID3){:target="_blank"}, which contain information on the artist, album, song, etc.) attached to mp3 files. The goal will be to harmonize meta-data for all mp3 files which belong to a single album.  
+
+*[Update: Google Play has been discontinued. The method described below seems to work well with the music app [Rocket Player](https://play.google.com/store/apps/details?id=com.jrtstudio.AnotherMusicPlayer&hl=en&gl=US){:target="_blank"}.]*
   
 ## The Situation
 

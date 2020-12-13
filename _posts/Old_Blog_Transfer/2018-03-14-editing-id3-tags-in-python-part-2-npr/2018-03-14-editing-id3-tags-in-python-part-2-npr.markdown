@@ -19,6 +19,8 @@ blogger_orig_url: https://methodmatters.blogspot.com/2018/03/editing-id3-tags-in
 I was excited to get the chance to re-use the code from the [previous post]{{ site.baseurl }}({% link _posts/Old_Blog_Transfer/2018-02-12-editing-id3-tags-mp3-meta-data-in-python/2018-02-12-editing-id3-tags-mp3-meta-data-in-python.markdown %} ){:target="_blank"} to solve a problem I recently had with a compilation of songs taken from different albums. [NPR Music](https://www.npr.org/music){:target="_blank"} has put together a [compilation of 100 songs](https://www.npr.org/2018/03/01/585356494/the-austin-100-a-2018-sxsw-mixtape){:target="_blank"} from bands playing at this year's [South by Southwest](https://www.sxsw.com/){:target="_blank"} (SXSW) festival. It's [available to download](https://www.npr.org/2018/03/01/585356494/the-austin-100-a-2018-sxsw-mixtape){:target="_blank"} for free for a limited time.  
   
 The issue, when putting the folder containing the 100 mp3s on my Android phone, is that the ID3 tags for album and album artist are specific to the album from which each song originated. Each song is listed under a different album, resulting in 100 additional albums to scroll through in the Google Play mp3 player - a complete mess!  
+
+*[Update: Google Play has been discontinued. The method described below seems to work well with the music app [Rocket Player](https://play.google.com/store/apps/details?id=com.jrtstudio.AnotherMusicPlayer&hl=en&gl=US){:target="_blank"}.]*
   
 I used the Python code below to harmonize the album and album artist ID3 tags for the Austin 100 compilation. All the songs are now classified under a single album in Google Play - making it easy to listen to the collection of songs without navigating through 100 different folders.  
   

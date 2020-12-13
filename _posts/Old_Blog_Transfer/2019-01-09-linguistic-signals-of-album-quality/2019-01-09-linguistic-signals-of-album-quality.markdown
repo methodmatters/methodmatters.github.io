@@ -24,6 +24,8 @@ blogger_orig_url: https://methodmatters.blogspot.com/2019/01/linguistic-signals-
 
   
 In this post we will return to the Pitchfork music review data, parts of which I've [analyzed]{{ site.baseurl }}({% link _posts/Old_Blog_Transfer/2017-12-07-clustering-music-genres-with-r/2017-12-07-clustering-music-genres-with-r.markdown %} ){:target="_blank"} in [previous]{{ site.baseurl }}({% link _posts/Old_Blog_Transfer/2018-06-06-sentiment-use-across-course-of/2018-06-06-sentiment-use-across-course-of.markdown %} ){:target="_blank"} [posts]{{ site.baseurl }}({% link _posts/Old_Blog_Transfer/2018-09-22-differences-in-word-use-across-music/2018-09-22-differences-in-word-use-across-music.markdown %} ){:target="_blank"}. Our goal here will be to use text mining and natural language processing (NLP) to understand linguistic signals of album quality. This type of analysis helps us understand what Pitchfork reviewers appreciate or dislike, and gives us a sense of the criteria which distinguish good albums from bad ones. We will use the R package [**Quanteda**](https://quanteda.io/){:target="_blank"}, developed by Ken Benoit and colleagues, to do the text mining and NLP. We will use the [**glmnet**](https://cran.r-project.org/package=glmnet){:target="_blank"} package to build a LASSO regression model to predict the album review score from the review text.   
+
+*[Update: A special thanks to Ken Benoit, who was kind enough to suggest some improvements, which are included in the code shown below.]*
   
 ## The Data
 
