@@ -334,24 +334,24 @@ Rows that have a lot of maroon values are days that have *higher* step counts. T
 Columns that have many red values are days that have especially *low* step counts. For example, the column representing '2015-12-25' is mostly red. As we saw above, this date has the lowest predicted step count in our sample - under 5,000! It is no wonder then that this date has a "significantly" lower step count than most of the other days.   
   
   
-## How Baysian Am I?  
+## How Bayesian Am I?  
 
-I'm a newbie to Baysian thinking, but I get the sense that Baysian statistics comes in many different flavors. The approach above strikes me as being a little bit, but not completely, Baysian.  
+I'm a newbie to Bayesian thinking, but I get the sense that Bayesian statistics comes in many different flavors. The approach above strikes me as being a little bit, but not completely, Bayesian.  
   
-### That's So Baysian 
+### That's So Bayesian 
   
-This approach is Baysian in that it uses posterior distributions of daily step counts to make the comparisons between days. The approach recognizes that observed daily step counts are just observations from a larger posterior distribution of possible step counts, and we make explicit use of this posterior distribution in the data analysis. In contrast, frequentist methods basically only make use of point estimates of coefficients and the standard errors of those estimates to draw conclusions from data.   
+This approach is Bayesian in that it uses posterior distributions of daily step counts to make the comparisons between days. The approach recognizes that observed daily step counts are just observations from a larger posterior distribution of possible step counts, and we make explicit use of this posterior distribution in the data analysis. In contrast, frequentist methods basically only make use of point estimates of coefficients and the standard errors of those estimates to draw conclusions from data.   
   
 ### Not So Fast!
   
-There are some things about this perspective that aren't so Baysian. First, we use flat priors in the model; a "more Baysian" approach would assign prior distributions to the intercept and the coefficients, which would then be updated during the model computation. Second, we use the point estimates of our coefficients to compute the estimated daily step counts. A "more Baysian" approach would recognize that the coefficient estimates also have posterior distributions, and would incorporate this uncertainty in the simulations of daily step counts.  
+There are some things about this perspective that aren't so Bayesian. First, we use flat priors in the model; a "more Bayesian" approach would assign prior distributions to the intercept and the coefficients, which would then be updated during the model computation. Second, we use the point estimates of our coefficients to compute the estimated daily step counts. A "more Bayesian" approach would recognize that the coefficient estimates also have posterior distributions, and would incorporate this uncertainty in the simulations of daily step counts.  
   
 ### What Do I Know?  
   
-This is my current best understanding of the differences in Baysian and frequentist perspectives as they apply to what we've done here. I'm reading [Statistical Rethinking](http://xcelab.net/rm/statistical-rethinking/){:target="_blank"} (and watching the accompanying [course videos](https://www.youtube.com/playlist?list=PLDcUM9US4XdMdZOhJWJJD4mDBMnbTWw_z){:target="_blank"}) by [Richard McElreath](http://xcelab.net/rm/){:target="_blank"} (love it), and these differences are what I've understood from the book and videos thus far.   
+This is my current best understanding of the differences in Bayesian and frequentist perspectives as they apply to what we've done here. I'm reading [Statistical Rethinking](http://xcelab.net/rm/statistical-rethinking/){:target="_blank"} (and watching the accompanying [course videos](https://www.youtube.com/playlist?list=PLDcUM9US4XdMdZOhJWJJD4mDBMnbTWw_z){:target="_blank"}) by [Richard McElreath](http://xcelab.net/rm/){:target="_blank"} (love it), and these differences are what I've understood from the book and videos thus far.   
   
   
-The method used in this blog post is a nice compromise for someone comfortable with frequentist use of multi-level models (like myself). It requires a little bit more work than just interpreting standard multilevel model output, but it's not a tremendous stretch. Indeed, the more "exotic" procedures (for a Baysian newbie) like assigning priors for the model parameters are not necessary here.  
+The method used in this blog post is a nice compromise for someone comfortable with frequentist use of multi-level models (like myself). It requires a little bit more work than just interpreting standard multilevel model output, but it's not a tremendous stretch. Indeed, the more "exotic" procedures (for a Bayesian newbie) like assigning priors for the model parameters are not necessary here.  
   
   
 ## Summary and Conclusion  
