@@ -29,6 +29,9 @@ markdown:    kramdown
 highlighter: rouge
 # highlighter: none
 
+# time zone for post dates
+timezone: Europe/Brussels
+
 # Markdown Processors
 markdown: kramdown
 kramdown:
