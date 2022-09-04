@@ -72,6 +72,7 @@ The head of our edge list data frame looks like this:
         font-family: Helvetica, Arial, sans-serif;
         font-size: 90%;
         width: 85px;
+        word-wrap: break-word;
     }
     table tbody tr:hover {
         background-color: #dddddd;
