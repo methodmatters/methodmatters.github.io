@@ -37,7 +37,7 @@ tags:
 
 ---
 
-*This post was co-written with [Cesar Legendre](https://www.linkedin.com/in/cesarlegendre/){:target="_blank"} of Prophecy Labs*
+*This post was co-written with [Cesar Legendre](https://www.linkedin.com/in/cesarlegendre/){:target="_blank"} of [Prophecy Labs](https://www.prophecylabs.com/){:target="_blank"}*
 
 
 ### **_Exasperated Data Scientists Applying for Jobs. Credit: [Jesse Blum](https://mediavault.ai){:target="_blank"} via Midjourney_**
