@@ -21,7 +21,17 @@ social-email: methodmattersblog@gmail.com # add your Email address
 discus-identifier: methodmatters # mr-brown # add your discus identifier
 
 # Tracker
-analytics: UA-147974154-1 # Google Analytics
+# analytics: UA-147974154-1 # Google Analytics G-DEXJ7MWQ28
+# https://www.deepanseeralan.com/tech/google-universal-analytics-to-google-analytics-4/
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "G-DEXJ7MWQ28"
+# https://stackoverflow.com/questions/65374564/google-analytics-tag-not-working-on-jekyll-with-gh-pages
+# https://desiredpersona.com/google-analytics-jekyll/
+google_analytics: "G-DEXJ7MWQ28"
+
+
 
 # Build Settings
 # Conversion
